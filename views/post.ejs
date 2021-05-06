@@ -1,0 +1,6 @@
+<%- include('partials/header'); -%> 
+<h1><%= title %></h1>
+<% content.split('\n').forEach(function(paragraph) { %>
+<p> <%= paragraph %> </p>
+<% }) %>
+<%- include('partials/footer'); -%> 
